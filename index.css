@@ -1,0 +1,185 @@
+body{
+  background-color: rgb(249, 234, 215);
+}
+h1 {color: rgb(255, 255, 255);
+  font-size: xx-large;
+  text-align: center;
+  background-color: rgb(88, 61, 61);
+  margin-top: -5px;
+  margin-left: 90px;
+  margin-right: 10px;
+  margin-bottom: -10px;
+}
+
+.logo img{
+  float: left;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+  margin-right: 10px;
+  padding-left: 50px;
+  overflow: hidden;
+  background-color: #333;
+  margin-top: 5px;
+}
+
+li {
+  float: left;
+  font-size: larger;
+  padding: 5px;
+  padding-left: 2px;
+}
+
+li a {
+  display: block;
+  color: rgb(255, 0, 0);
+  text-align: center;
+  padding: 2px;
+  padding-left: 50px;
+  padding-right: 50px ;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+.banner-card{
+  position: relative;
+}
+.banner-card img{
+  margin-top: -15px;
+  margin-left: 3px;
+  margin-right: 15px;
+}
+.banner-text{
+  position: absolute;
+  text-align: center;
+  top: 15%;
+  left: 35%;
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  font-size: 25px;
+  background-color: rgba(111, 118, 255, 0.838);
+}
+h2{
+  background-color: black;
+  color: white;
+  text-align: center;
+  margin-top: -2px;
+  margin-left: 3px;
+  margin-right: 9px;
+  margin-bottom: 0px;
+}
+.container {
+  display: grid;
+  align-items: center; 
+  grid-template-columns: 0fr 8fr 0fr;
+  column-gap: 10px;
+  font-size: 30px;
+  margin-top:-1px;
+  background-color: rgb(192, 189, 189);
+  margin-right: 9px;
+  margin-left: 4px;
+  margin-bottom: 0px;
+  padding: 1%;
+ }
+h3{
+  text-align: center;
+  font-size: 25px;
+  margin-left: 5px;
+  margin-top: 3px;
+  margin-right: 8px;
+  background-color: rgb(255, 255, 254);
+  margin-bottom: 0;
+}
+.first .w60 img{
+  float: right;
+  margin-right: 9px;
+  margin-top: 10px;
+}
+.parafirst p{
+  color: rgb(0, 0, 0);
+  margin-top: 8px;
+  margin-left: 5px;
+  margin-right: 8px;
+  padding: 5px;
+  margin-bottom: 4px;
+  font-size: xx-large;
+  background-color: rgb(219, 192, 144);
+}
+h4{
+  text-align: center;
+  font-size: 25px;
+  margin-left: 5px;
+  margin-top: 3px;
+  margin-right: 8px;
+  color: black;
+  background-color: rgb(236, 174, 135);
+  margin-bottom: 0;
+}
+.second{
+  display: grid;
+  align-items: center; 
+  grid-template-columns: 0fr 8fr 0fr;
+  column-gap: 10px;
+  font-size: 25px;
+  color: aliceblue;
+  margin-top: 2px;
+  background-color: rgb(0, 66, 132);
+  margin-right: 9px;
+  margin-left: 5px;
+  margin-bottom: 0px;
+}
+h5{
+  text-align: center;
+  font-size: 25px;
+  margin-left: 5px;
+  margin-top: 3px;
+  margin-right: 8px;
+  color: rgba(255, 0, 0, 0.851);
+  background-color: rgb(0, 0, 0);
+  margin-bottom: -5px;
+}
+.Third .Y60 img{
+  float: right;
+  margin-right: 8px;
+  margin-top: -2px;
+}
+.Ypara{
+  color: rgb(255, 255, 255);
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-right: 8px;
+  padding: 4px;
+  font-size: x-large;
+  background-color: rgba(119, 0, 0, 0.988);
+  margin-bottom: 0px;
+}
+h6{
+  text-align: center;
+  font-size: 25px;
+  margin-left: 5px;
+  margin-top: 3px;
+  margin-right: 8px;
+  color: rgba(246, 246, 246, 0.851);
+  background-color: rgb(0, 0, 0);
+  margin-bottom: -5px;
+}
+.fourth{
+
+  display: grid;
+  align-items: center; 
+  grid-template-columns: 0fr 8fr 0fr;
+  column-gap: 10px;
+  font-size: 22px;
+  margin-top: 7px;
+  background-color: rgb(255, 255, 255);
+  margin-right: 9px;
+  margin-left: 6px;
+  margin-bottom: 0px;
+}
